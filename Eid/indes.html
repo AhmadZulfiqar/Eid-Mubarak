@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eid-Al-Adha</title>
+    <style>
+      @media (max-width:600px) {
+        .main{
+            width: 98vw;
+            height: 185vw;
+            background-image: radial-gradient( rgb(240, 240, 240),rgb(202, 202, 202));;
+        }
+        #p1{
+            position: absolute;
+            width: 50vw;
+            bottom: -50vw;
+            left: 25vw;
+            animation-name: simpleMove;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+            animation-delay: 2s;
+            
+        }
+     
+        @keyframes simpleMove {
+    from {
+        opacity: 0;
+        bottom: -20vw;
+    }
+    to {
+        opacity: 1;
+        bottom: 25vw;
+    }
+}
+        #p2{
+            position: absolute;
+            width: 12vw;
+            animation-name: up;
+            animation-duration: 2s;
+        }
+        #p3{
+            position: absolute;
+            width: 9vw;
+            left: 20vw;
+            animation-name: up;
+            animation-duration: 2s;
+        }
+        #p6{
+            position: absolute;
+            width: 9vw;
+            left: 70vw;
+            animation-name: up;
+            animation-duration: 2s;
+        }
+        #p7{
+            position: absolute;
+            width: 12vw;
+            left: 85vw;
+            animation-name: up;
+            animation-duration: 2s;
+        }
+        #p4{
+            position: absolute;
+            width: 70vw;
+            bottom:  10vw;
+            left: 15vw;
+            animation-name: eid;
+            animation-duration: 2s;
+            animation-delay: 3s;
+            opacity: 0;
+            animation-fill-mode: forwards;
+        }
+        @keyframes eid {
+            from{
+                bottom: 0vw;
+                opacity: 0;
+            }
+            to{
+                bottom: 10vw;
+                opacity: 1;
+                display: block;
+            }
+        }
+        #p5{
+            position: absolute;
+            width: 70vw;
+            top: 50vw;
+            left: -100vw;
+            animation-name: left;
+            animation-duration: 2s;
+            opacity: 0;
+            animation-delay: 1s;
+            animation-duration: 2.5s;
+            animation-fill-mode: forwards;
+             
+        }
+        @keyframes up {
+            0%{
+                opacity: 0;
+                top: -50vw;
+            }
+            100%{
+                opacity: 1;
+                top: 2vw;
+            }
+
+        }
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            position: absolute;
+            bottom: 18vw;
+        }
+        @keyframes left {
+            0%{
+                left: -100vw;
+            }
+            100%{
+                opacity: 1;
+                left: 15%;
+            }
+
+        }
+        
+      }
+    </style>
+</head>
+<body>
+    <div class="main">
+        
+            <img src="/eid.png" alt="" id="p1">
+            <img src="/eid1.png" alt="" id="p2">
+            <img src="/eid1.png" alt="" id="p3">
+            <img src="/eid1.png" alt="" id="p6">
+            <img src="/eid1.png" alt="" id="p7">
+            <img src="/ahmad.png" alt="" id="p4">
+            <img src="/eid5.png" alt="" id="p5">
+
+    </div>
+</body>
+</html>
